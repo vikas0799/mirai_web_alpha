@@ -3,6 +3,8 @@
 
 ## 📖 OneNote:- https://1drv.ms/o/c/be1a14ef15828f00/ElH16dBT4DNNiO4nnWmFFTkBoxZ4AvHM8xCFVT2za5uqrA?e=i8AhNv
 
+## Topic Covered :-
+
 ### 1. HTML Fundamentals and Web Structure
 - **Introduction to Web Development**: Web overview, client-server architecture, MERN stack introduction, development environment setup  
 - **HTML Basics and Structure**: Document structure, tags, elements, attributes, semantic HTML, document outline  
