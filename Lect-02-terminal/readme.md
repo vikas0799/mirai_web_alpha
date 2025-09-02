@@ -36,3 +36,59 @@
 | `/Volumes`                       | Mounted drives (USB, external disks)            |
 
 ---
+
+# 💻 VS Code Shortcuts (Mac)
+
+## 🔹 General
+- `Cmd + Shift + P` → Command Palette  
+- `Cmd + P` → Quick open file  
+- `Cmd + ,` → Open settings  
+- `Cmd + K Cmd + S` → Keyboard shortcuts  
+
+---
+
+## 🔹 Editing
+- `Cmd + D` → Select next occurrence of word  
+- `Cmd + Shift + L` → Select all occurrences of word  
+- `Option + ↑ / ↓` → Move line up/down  
+- `Option + Shift + ↑ / ↓` → Copy line up/down  
+- `Cmd + /` → Toggle line comment  
+- `Option + Cmd + A` → Toggle block comment  
+- `Cmd + ] / [` → Indent / Outdent line  
+
+---
+
+## 🔹 Navigation
+- `Cmd + B` → Toggle sidebar  
+- `Cmd + Shift + E` → Show Explorer  
+- `Cmd + Shift + F` → Search in files  
+- `Cmd + Shift + G` → Git source control  
+- `Cmd + Shift + D` → Debug panel  
+- `Cmd + Shift + X` → Extensions panel  
+
+---
+
+## 🔹 Tabs & Windows
+- `Cmd + N` → New file  
+- `Cmd + W` → Close file  
+- `Cmd + Shift + T` → Reopen closed file  
+- `Cmd + 1/2/3...` → Switch between editor tabs  
+- `Cmd + \` → Split editor  
+- `Cmd + Option + ← / →` → Switch between split editors  
+
+---
+
+## 🔹 Integrated Terminal
+- `` Ctrl + ` `` → Toggle terminal  
+- `Cmd + Shift + C` → Open new terminal  
+- `Cmd + K` then `Cmd + S` → Clear terminal  
+
+---
+
+## 💡 Tips
+- Use **Tab** to auto-complete file/folder names  
+- Use **↑ (up arrow)** to repeat last command  
+- Use **Cmd + T** to open a new Terminal tab  
+- Use **Cmd + W** to close current Terminal tab  
+
+---
