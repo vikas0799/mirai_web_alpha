@@ -17,7 +17,7 @@
 
 ---
 
-## 📂 macOS Default Folder Structure
+##  macOS Default Folder Structure
 
 | Folder                           | Purpose                                         |
 | -------------------------------- | ----------------------------------------------- |
@@ -37,7 +37,7 @@
 
 ---
 
-# 💻 VS Code Shortcuts (Mac)
+#  VS Code Shortcuts (Mac)
 
 ## 🔹 General
 - `Cmd + Shift + P` → Command Palette  
