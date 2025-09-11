@@ -1,0 +1,39 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: red;
+    background-color: rgb(124, 141, 141);
+
+}
+
+p{
+    color: rgb(205, 129, 29);
+    font-weight: lighter;
+}
+
+
+.coding_club{
+    color: blue;
+}
+
+
+#start{
+    color: chartreuse;
+} */
+
+
+/* h1{
+    color: red;
+}
+p{
+    color: red;
+} */
+
+h1,p{
+    color: red;
+}
