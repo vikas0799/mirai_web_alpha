@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: antiquewhite;
+    /* color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder; */
+    /* word-spacing: 40px;
+    letter-spacing: 10px;
+    line-height: 10px; */
+    /* text-transform: uppercase;
+    text-decoration:none; */
+
+    border: 20px solid red;
+    padding: 25px;
+    margin: 20px;
+}
+
+ul{
+    list-style:none;
+    text-decoration: underline;
+
+}
+
+/* a{
+    text-decoration: none;
+} */
