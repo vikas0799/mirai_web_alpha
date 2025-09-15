@@ -14,9 +14,18 @@ main{
     /* text-transform: uppercase;
     text-decoration:none; */
 
-    border: 20px solid red;
-    padding: 25px;
-    margin: 20px;
+    /* border: 20px solid red; */
+    /* border-left: 100px solid black; */
+    /* padding: 25px;
+    margin: 20px; */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px; */
+
+
+    /* margin: 20px 50px; */
+    /* margin: 20px 50px 100px; */
+    /* margin: 20px 50px 80px 120px; */
 }
 
 ul{
@@ -28,3 +37,8 @@ ul{
 /* a{
     text-decoration: none;
 } */
+
+
+h1{
+    border: 12px solid black;
+}
