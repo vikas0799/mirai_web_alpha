@@ -9,12 +9,26 @@
         main {
             height: 300px;
             width: 400px;
+
+          
+            /* Use solid colors (no transparency) to stop gradient bending , moniter and browser 
+            ek sath nahi render pate isiliye transparency ke liye contrast hexcode color use karo */ 
+/* Instead of transparent RGBA, use hex or opaque colors: */
+
             /* background-color: rgb(255, 0, 0); */
-            /* background: linear-gradient(to left, rgb(255, 0, 0,0.4),  rgb(0, 128, 0,0.5)); */
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url("flower.jpg") no-repeat center/cover;
+            /* background: linear-gradient(to bottom, rgb(255, 0, 0,0.4),  rgb(0, 128, 0,0.5)); */
+            /* background: linear-gradient(to bottom, rgb(255, 0, 0,0.4),  rgb(0, 128, 0,0.5)); */
+
+
+            /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("flower.jpg") no-repeat center/cover; */
 
         }
+
+        main {
+  background: linear-gradient(to top, #6d2b2b, #817070);
+}
+
         h1{
             color: whitesmoke;
         }
