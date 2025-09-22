@@ -1,0 +1,27 @@
+div{
+    height: 250px;
+    width: 100vw;
+    background-color: aqua;
+    position: sticky;
+    top: 30px;
+}
+
+main{
+    height: 450px;
+    background-color: red;
+    margin: 25px;
+    /* z-index: 2; */
+
+}
+
+#main2{
+    background-color: blueviolet;
+    width: 500px;
+    position: relative;
+    top: -400px;
+    z-index: -4;
+}
+
+*{
+    border: 3px solid black;
+}
