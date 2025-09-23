@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header img{
+    height: 0.99rem;
+    /* margin-top: 5px; */
+}
+
+a{
+    text-decoration: none;
+    padding: 35px;
+}
+
+main img{
+    height: 650px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 95vh;
+    gap: 20px;
+}
+
+button{
+    
+}

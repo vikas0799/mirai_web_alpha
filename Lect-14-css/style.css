@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: _______; /* students fill */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: _______; /* students fill */
+  align-items: _______;     /* students fill */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  flex: 1; /* so it takes available space */
+}
+
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+}
+
+.content {
+  flex: _______; /* students fill */
+  background: #ddd;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: _______; /* students fill */
+  align-items: _______;     /* students fill */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
