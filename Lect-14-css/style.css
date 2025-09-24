@@ -3,14 +3,14 @@ body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
   display: flex;
-  flex-direction: _______; /* students fill */
+  flex-direction:___; /* students fill */
 }
 
 /* Header */
 .header {
   display: flex;
-  justify-content: _______; /* students fill */
-  align-items: _______;     /* students fill */
+  justify-content:__; /* students fill */
+  align-items:__;     /* students fill */
   padding: 10px;
   background-color: #333;
   color: #fff;
@@ -33,8 +33,12 @@ body {
   background: #f4f4f4;
 }
 
+
+/* child property */
 .content {
-  flex: _______; /* students fill */
+  /* display: flex; */
+
+  flex:__; /* students fill */
   background: #ddd;
   padding: 20px;
 }
@@ -42,8 +46,8 @@ body {
 /* Footer */
 .footer {
   display: flex;
-  justify-content: _______; /* students fill */
-  align-items: _______;     /* students fill */
+  justify-content:__; /* students fill */
+  align-items:__;     /* students fill */
   padding: 10px;
   background-color: #333;
   color: #fff;
