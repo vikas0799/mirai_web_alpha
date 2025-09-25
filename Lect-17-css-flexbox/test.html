@@ -1,0 +1,41 @@
+
+  <style>
+    .container {
+      display: flex;
+      align-items: stretch;
+      background-color: green;
+    }
+
+    div {
+      background-color: DodgerBlue;
+      color: white;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      font-size: 30px;
+    }
+    #box5{
+      /* height: 100vh; */
+            /* flex-grow: 2; */
+            /* flex-shrink: 4; */
+            /* flex-basis: 300px; */
+            /* flex:2 2 300px; */
+            align-self:start;
+    }
+  </style>
+
+  <h1>The order Property</h1>
+
+  <p>Use the order property to sort the flex items as you like:</p>
+
+  <div class="container">
+    <div style="order: 3">1</div>
+    <div style="order: 2">2</div>
+    <div style="order: 1">3</div>
+    <div style="order: 4">4</div>
+    <div id="box5">5</div>
+  </div>
+
+</body>
+
+</html>
