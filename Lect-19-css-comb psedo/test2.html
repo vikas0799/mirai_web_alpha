@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color: red;
+            /* border: 2px solid black; */
+            width: 200px;
+            height: 200px;
+            outline: none;
+            border: 0;
+        }
+
+
+          button:hover{
+            box-shadow: 0 0 15px  black;
+
+          }
+        button:hover + p{
+            /* background-color: green; */
+            /* height: 70px; */
+            display: block;
+
+        }
+
+        p{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <button>click me</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos inventore voluptatum possimus fugiat omnis ut vitae fugit libero quisquam consequuntur?</p>
+    
+</body>
+</html>
