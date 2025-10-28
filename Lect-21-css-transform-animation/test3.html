@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: mytransform 2s 0s 3 alternate  forwards, mydestiny 3s 0s 3 alternate   ;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        @keyframes mytransform{
+            0%{
+                   transform: translateX(0px) rotate(0deg);
+
+            }
+            50%{
+                   transform: translateX(50vw) rotate(90deg);
+                   border-radius: 50%;
+
+            }
+            100%
+            {
+                   transform: translateX(80vw) rotate(180deg);
+
+            }
+        }
+        @keyframes mydestiny{
+            0%{
+              height: 400px;
+            }
+            100%{
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+
+    </div>
+    
+</body>
+</html>
