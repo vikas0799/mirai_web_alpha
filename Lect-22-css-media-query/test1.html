@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            background-color: rgb(197, 137, 59);
+            width: 200vw;
+            display: flex;
+            height: 200px;
+            animation: scroll 3s linear infinite ;
+            font-size: 60px;
+            color: white;
+        }
+
+        section{
+            background-color: blueviolet;
+            flex: 1;
+            margin: 10px;
+            display: flex;
+        }
+
+        div{
+            background-color: red;
+            flex: 1;
+            margin: 10px;
+        }
+
+         @keyframes scroll {
+            0%{
+                transform: translateX(0%);
+            }
+            100%{
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <main>
+        <section class="group">
+         <div>arav</div>
+         <div>shjivam</div>
+         <div>manikesh</div>
+         <div>onik</div>
+         <div>kiran</div>
+
+        </section>
+        <section class="group">
+         <div>arav</div>
+         <div>shjivam</div>
+         <div>manikesh</div>
+         <div>onik</div>
+         <div>kiran</div>
+        </section>
+    </main>
+</body>
+
+</html>

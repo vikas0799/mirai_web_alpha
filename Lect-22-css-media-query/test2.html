@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            margin: 10px;
+        }
+        main{
+            display: flex;
+            background-color: blueviolet;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        @media (max-width:400px) {
+            /* all 0 to 400px device width css, mobile  */
+            body{
+                background-color: rgb(107, 102, 102);
+                
+            }
+            
+            ul{
+                color: white;
+                background-color: aqua;
+                flex-direction: column;
+            }
+            li{
+                list-style: none;
+                font-size: xx-large;
+                /* display: none; */
+            }
+        }
+
+         @media (min-width:401px) and (max-width:800px) {
+            /*  tablet  */
+            body{
+                background-color: green;
+            }
+            
+        }
+
+         @media (min-width:801px) and (max-width:1200px) {
+            /*  laptop  */
+            body{
+                background-color: blue;
+            }
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>services</li>
+            <li>feedback</li>
+        </ul>
+    </header>
+    <main>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+
+    <h1>Lorem, ipsum dolor.</h1>
+</body>
+</html>
