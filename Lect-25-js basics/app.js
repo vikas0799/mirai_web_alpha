@@ -31,6 +31,7 @@
 
 // var a;
 
+console.log(a);
 if(true){
 var a=90;
     a=a+1;
@@ -38,8 +39,21 @@ var a=90;
     
 
 }
-console.log(a);
 
 
 // console.log(a);
 // var a=90;
+
+
+
+
+// if(true){
+//     console.log(a);
+//     if(true){
+//         let a=90;
+//     }
+// }
+
+
+
+// function 
