@@ -1,6 +1,6 @@
 
 let x=90;
-// console.log(y);
+console.log(y);
 
 function sum(){
   console.log(y);
