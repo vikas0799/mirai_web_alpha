@@ -11,11 +11,18 @@
 
 
 async function dataFetching() {
-     try {
+  try {
+    console.log("welcome");
         let url="https://fakestoreapi.com/products";
         let responce= await fetch(url,{})
             let data=await responce.json();
             console.log(data);
+        //   data=  data.filter((Element)=>{
+        //         if(Element.category==="electronics")
+        //             return true;
+        //         else
+        //             return false;
+        //     })
             renderdata(data);
         
      } catch (error) {
@@ -24,9 +31,12 @@ async function dataFetching() {
         
         
      }
+    console.log("transfer");
+    
 }
-function renderdata(data){
-    //
-}
+// function renderdata(data){
+//     const container = document.getElementById("container");
+
+// }
 
 dataFetching();
